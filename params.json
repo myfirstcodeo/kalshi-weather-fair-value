@@ -1,0 +1,181 @@
+{
+ "fitted_at": "2026-09-23",
+ "forecast_key": "blend_d1",
+ "days": 60,
+ "cities": {
+  "NYC": {
+   "bias": -1.074,
+   "sigma1": 2.078,
+   "sigma2": 2.553,
+   "n": 60,
+   "normal_ok": true
+  },
+  "MIA": {
+   "bias": 3.657,
+   "sigma1": 1.916,
+   "sigma2": 1.649,
+   "n": 60,
+   "normal_ok": true
+  },
+  "CHI": {
+   "bias": 0.26,
+   "sigma1": 2.407,
+   "sigma2": 2.622,
+   "n": 60,
+   "normal_ok": true
+  },
+  "AUS": {
+   "bias": 2.458,
+   "sigma1": 1.455,
+   "sigma2": 1.864,
+   "n": 60,
+   "normal_ok": false
+  },
+  "HOU": {
+   "bias": -0.025,
+   "sigma1": 2.267,
+   "sigma2": 2.804,
+   "n": 60,
+   "normal_ok": true
+  },
+  "DC": {
+   "bias": -0.593,
+   "sigma1": 2.546,
+   "sigma2": 3.119,
+   "n": 60,
+   "normal_ok": true
+  },
+  "SAN": {
+   "bias": -3.354,
+   "sigma1": 2.543,
+   "sigma2": 3.404,
+   "n": 35,
+   "normal_ok": true
+  },
+  "NOLA": {
+   "bias": 1.159,
+   "sigma1": 2.201,
+   "sigma2": 2.557,
+   "n": 60,
+   "normal_ok": false
+  },
+  "MIN": {
+   "bias": -0.116,
+   "sigma1": 2.976,
+   "sigma2": 3.339,
+   "n": 60,
+   "normal_ok": true
+  },
+  "SATX": {
+   "bias": 0.526,
+   "sigma1": 1.592,
+   "sigma2": 1.831,
+   "n": 60,
+   "normal_ok": false
+  },
+  "DEN": {
+   "bias": 0.624,
+   "sigma1": 1.946,
+   "sigma2": 2.748,
+   "n": 60,
+   "normal_ok": true
+  },
+  "LAX": {
+   "bias": -3.961,
+   "sigma1": 3.064,
+   "sigma2": 3.844,
+   "n": 60,
+   "normal_ok": true
+  },
+  "BOS": {
+   "bias": 0.309,
+   "sigma1": 2.446,
+   "sigma2": 2.595,
+   "n": 60,
+   "normal_ok": true
+  },
+  "ATL": {
+   "bias": 0.326,
+   "sigma1": 2.128,
+   "sigma2": 2.73,
+   "n": 60,
+   "normal_ok": true
+  },
+  "PHL": {
+   "bias": 1.901,
+   "sigma1": 1.884,
+   "sigma2": 2.406,
+   "n": 60,
+   "normal_ok": true
+  },
+  "OKC": {
+   "bias": 1.263,
+   "sigma1": 2.603,
+   "sigma2": 3.478,
+   "n": 60,
+   "normal_ok": false
+  },
+  "PHX": {
+   "bias": 0.972,
+   "sigma1": 1.832,
+   "sigma2": 2.337,
+   "n": 60,
+   "normal_ok": true
+  },
+  "LAS": {
+   "bias": 0.616,
+   "sigma1": 2.232,
+   "sigma2": 2.234,
+   "n": 60,
+   "normal_ok": false
+  },
+  "TTN": {
+   "bias": 0.546,
+   "sigma1": 1.651,
+   "sigma2": 2.251,
+   "n": 28,
+   "normal_ok": true
+  },
+  "EWR": {
+   "bias": 0.873,
+   "sigma1": 2.236,
+   "sigma2": 2.289,
+   "n": 28,
+   "normal_ok": true
+  },
+  "SFO": {
+   "bias": -1.095,
+   "sigma1": 3.434,
+   "sigma2": 4.806,
+   "n": 60,
+   "normal_ok": false
+  },
+  "SEA": {
+   "bias": 0.809,
+   "sigma1": 2.151,
+   "sigma2": 3.075,
+   "n": 60,
+   "normal_ok": true
+  },
+  "DFW": {
+   "bias": 0.45,
+   "sigma1": 1.926,
+   "sigma2": 2.507,
+   "n": 60,
+   "normal_ok": false
+  },
+  "SDF": {
+   "bias": -0.285,
+   "sigma1": 2.465,
+   "sigma2": 3.285,
+   "n": 26,
+   "normal_ok": false
+  }
+ },
+ "pooled": {
+  "bias": 0.321,
+  "sigma1": 2.755,
+  "sigma2": 3.329
+ },
+ "note": "Error = Kalshi settlement reading minus Open-Meteo day-1 forecast high (blend_d1). Live tool applies these to the NWS forecast; see README caveat."
+}
